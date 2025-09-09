@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
-
+// initialization
 int main()
 {
     int a, b;
@@ -10,8 +10,18 @@ int main()
     int s, v, t;
     std::cout << "Enter 2 numbers:\n";
     std::cin >> a >> b;
-    std::cout << " Summ output: " << (a + b) << " The difference output: " << (a - b) << "\n" " The multiplication output: " << (a * b) << " Division output: " << (a / b);
+
+    //--------------------------------------Exercise No. 1 and 2-------------------------------------
+
+    
+    std::cout << " Summ output: " << (a + b)  << " The difference output: " << (a - b) << "\n" " The multiplication output: " << (a * b) << " Division output: " << (a / b);
+    //--------------------------------------Exercise No. 3-------------------------------------
+
+    
     std::cout << " Hypotenuse output: " << std::sqrt (a * a + b * b);
+
+    //--------------------------------------Exercise No. 4-------------------------------------
+    
     std::cout << " Enter the speed needed: \n";
     std::cin >> s >> v;
     if (s > 109)
@@ -22,6 +32,7 @@ int main()
     {
         std::cout << "your time is: " << (s / v) << " also you are still on the road, congrats!";
     }
+    //--------------------------------------Exercise No. 5-------------------------------------
     std::cin >> n;
     int h = n / 3600;
     int m = (n % 3600) / 60;
