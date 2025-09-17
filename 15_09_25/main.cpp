@@ -57,8 +57,8 @@ int main() {
             A = A - 1;
             cout << "-1" << endl;
         }
-    if (A == B) {
-        break;
+        if (A == B) {
+            break;
     }
     }
 }
