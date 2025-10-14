@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-void Cleaning(vector<int> arr) {
+void Cleaning(vector<int>& arr) {
     sort(arr.begin(), arr.end());
     auto it = unique(arr.begin(), arr.end());
     arr.erase(it, arr.end());
