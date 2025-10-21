@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
 // Exercize No.4
 int main() {
      int n;
