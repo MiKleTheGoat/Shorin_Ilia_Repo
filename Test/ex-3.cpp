@@ -1,3 +1,5 @@
+//Group: INBO-31-25
+//Student: Shorin Ilia
 #include <iostream>
 using namespace std;
 int main() {
